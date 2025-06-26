@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Triangle Calculator</title>
+  <link rel="stylesheet" href="css/index.css">
+<body>
+
+  <h2 style="text-align: center;">Triangle Calculator</h2>
+
+  <div class="container">
+
+    <!-- Area Calculator -->
+    <div class="calculator">
+      <h3>Calculate Area</h3>
+      <label for="base">Base:</label>
+      <input type="number" id="base" placeholder="Enter base">
+
+      <label for="height">Height:</label>
+      <input type="number" id="height" placeholder="Enter height">
+
+      <button onclick="calculateArea()">Calculate Area</button>
+      <p id="areaResult"></p>
+    </div>
+
+    <!-- Perimeter Calculator -->
+    <div class="calculator">
+      <h3>Calculate Perimeter</h3>
+      <label for="sideA">Side A:</label>
+      <input type="number" id="sideA" placeholder="Enter side A">
+
+      <label for="sideB">Side B:</label>
+      <input type="number" id="sideB" placeholder="Enter side B">
+
+      <label for="sideC">Side C:</label>
+      <input type="number" id="sideC" placeholder="Enter side C">
+
+      <button onclick="calculatePerimeter()">Calculate Perimeter</button>
+      <p id="perimeterResult"></p>
+    </div>
+
+</body>
+</html>
